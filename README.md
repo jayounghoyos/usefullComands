@@ -1,6 +1,13 @@
-# This is for usefull commands in my distributions or my projects
+# This is for useful commands in my distributions or my projects
 
+### lista de comandos
 
-# lista de comandos 
+- `mkdir folderName`
+- `pip install something`
+- `find nameOfFile`
 
-- mkadir 
+### Instalations .sh
+- convert to executable `chmod +x nombre_del_script.sh`
+- `chmod +x script_name.sh`
+- `+x` adds executable permissions
+- `sudo ./my_script.sh`
