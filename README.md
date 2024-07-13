@@ -17,4 +17,7 @@
 ### Machine learning
 - When you use conda, remember to add it to your PATH or select "yes" during the installation of the executable ```.sh```
 - Then, with Conda you can: ```bash jupyter notebooks```
-- 
+
+### Jupyter
+- ```bash shift + Enter``` to run that specific cell
+- ```bash Control + a + Enter``` to run every cell
