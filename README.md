@@ -14,4 +14,5 @@
 - ```bash sudo ./my_script.sh ```
 
 ### Machine learning
-- When you use conda remember to put it in your PATH or select yes in the instalation of the executable .sh
+- When you use conda, remember to add it to your PATH or select "yes" during the installation of the executable ```.sh```
+- Then, with Conda you can: ```bash jupyter notebooks```
