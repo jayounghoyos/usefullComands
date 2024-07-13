@@ -12,3 +12,6 @@
 - ```bash chmod +x script_name.sh ```
 - ```bash +x ``` adds executable permissions
 - ```bash sudo ./my_script.sh ```
+
+### Machine learning
+- When you use conda remember to put it in your PATH or select yes in the instalation of the executable .sh
