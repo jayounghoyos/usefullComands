@@ -1,10 +1,11 @@
 # This is for useful commands in my distributions or my projects
 
-### lista de comandos
+### Command list
 
 - ```bash mkdir folderName ```
 - ```bash pip install something ```
 - ```bash find nameOfFile ```
+- ```bash sudo dpkg -i file_name.deb ```
 
 ### Instalations .sh
 
@@ -16,3 +17,4 @@
 ### Machine learning
 - When you use conda, remember to add it to your PATH or select "yes" during the installation of the executable ```.sh```
 - Then, with Conda you can: ```bash jupyter notebooks```
+- 
