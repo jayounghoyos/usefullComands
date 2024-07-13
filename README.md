@@ -10,4 +10,4 @@
 - convert to executable ```chmod +x nombre_del_script.sh```
 - ```chmod +x script_name.sh```
 - ``` +x``` adds executable permissions
-- ```sudo ./my_script.sh 
+- ``` sudo ./my_script.sh 
