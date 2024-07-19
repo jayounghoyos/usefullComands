@@ -37,5 +37,5 @@ jupyter notebooks
 ```
 
 ### Jupyter
-`bash shift + Enter` to run that specific cell
+`shift + Enter` to run that specific cell
 `Control + a + Enter` to run every cell
