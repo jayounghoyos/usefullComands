@@ -39,3 +39,15 @@ jupyter notebooks
 ### Jupyter
 `shift + Enter` to run that specific cell
 `Control + a + Enter` to run every cell
+
+### Instalations .sh
+
+### enviroment 
+```bash 
+python3 -m venv venv
+source venv/bin/activate
+```
+To desactivate the env 
+```bash
+deactivate
+```
