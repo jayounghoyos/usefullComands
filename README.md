@@ -48,6 +48,10 @@ python3 -m venv venv
 source venv/bin/activate
 pip freeze > requirements.txt
 ```
+## Use the requirements to download the packages
+```bash
+pip install -r requirements.txt 
+```
 To desactivate the env 
 ```bash
 deactivate
