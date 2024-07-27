@@ -56,3 +56,10 @@ To desactivate the env
 ```bash
 deactivate
 ```
+
+# wall paper POP_os
+```bash
+sudo add-apt-repository ppa:variety/stable
+sudo apt-get update
+sudo apt-get install variety
+```
