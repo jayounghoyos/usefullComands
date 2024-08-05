@@ -35,6 +35,18 @@ sudo ./my_script.sh
 ```bash
 jupyter notebooks
 ```
+-Train YOLO model
+```bash
+!python train.py --data data.yaml --weights yolov5s.pt --batch-size 8 --name Model --img 640 --epochs 150
+```
+-Resume Training YOLO V5 Model
+```bash
+python train.py --data data.yaml --weights best.pt
+```
+- In the new update of opencv and YoloV5. There is change in command  to export model as .onnx. Use below updated command to export model
+```bash
+python export.py --weights runs/train/Model/weights/best.pt --include onnx --simplify --opset 12
+```
 
 ### Jupyter
 `shift + Enter` to run that specific cell
