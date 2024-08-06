@@ -47,6 +47,9 @@ python train.py --data data.yaml --weights best.pt
 ```bash
 python export.py --weights runs/train/Model/weights/best.pt --include onnx --simplify --opset 12
 ```
+```bash
+pip install opencv-python
+```
 
 ### Jupyter
 `shift + Enter` to run that specific cell
