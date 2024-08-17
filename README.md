@@ -28,7 +28,14 @@ chmod +x script_name.sh
 ```bash
 sudo ./my_script.sh 
 ```
-
+### App Image
+```bash 
+chmod +x your_appimage_file.AppImage
+```
+Run App Image
+```bash
+./your_appimage_file.AppImage
+```
 ### Machine learning
 - When you use conda, remember to add it to your PATH or select "yes" during the installation of the executable `.sh`
 - Then, with Conda you can:
