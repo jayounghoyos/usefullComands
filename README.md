@@ -79,6 +79,15 @@ To desactivate the env
 deactivate
 ```
 
+## Install Doom
+```bash
+sudo apt-get install chocolate-doom
+```
+run with:
+```bas
+chocolate-doom
+```
+
 # wall paper POP_os
 ```bash
 sudo add-apt-repository ppa:variety/stable
