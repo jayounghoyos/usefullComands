@@ -94,3 +94,8 @@ sudo add-apt-repository ppa:variety/stable
 sudo apt-get update
 sudo apt-get install variety
 ```
+
+#mongo for starting it 
+```bash
+sudo systemctl start mongod
+```
