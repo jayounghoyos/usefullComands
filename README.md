@@ -21,6 +21,12 @@ convert to executable
 ```bash 
 chmod +x nombre_del_script.sh
 ```
+
+EXecute
+```bash
+./anaconda.sh
+```
+
 ```bash 
 chmod +x script_name.sh
 ```
