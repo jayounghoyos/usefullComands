@@ -72,8 +72,14 @@ pip install opencv-python
 
 ### enviroment 
 ```bash 
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv env
+source env/bin/activate
+pip freeze > requirements.txt
+```
+windows
+```bash
+python -m venv env
+source env/bin/activate
 pip freeze > requirements.txt
 ```
 ## Use the requirements to download the packages
