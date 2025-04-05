@@ -111,3 +111,17 @@ sudo apt-get install variety
 ```bash
 sudo systemctl start mongod
 ```
+
+# useful pip or just installs
+fastapi
+```bash
+pip install fastapi
+```
+sqlalchemy
+```bash
+pip install sqlalchemy
+```
+psycopg2-binary
+```bash
+pip install psycopg2-binary
+```
