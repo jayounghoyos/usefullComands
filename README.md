@@ -174,3 +174,9 @@ source /opt/ros/humble/setup.bash
 ```bash
 ros2 
 ```
+
+*ROS2 builds*
+```bash
+colcon build
+colcon build --package-select my_py_pkg    #para hacer build a un paquete específico
+```
