@@ -180,3 +180,8 @@ ros2
 colcon build
 colcon build --package-select my_py_pkg    #para hacer build a un paquete específico
 ```
+
+*Create package (in python just rclcpy)*
+```bash
+ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
+```
