@@ -230,3 +230,8 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
+
+*Rename nodes in runtime(for example multi temperature sensors*
+```bash
+ros2 run my_py_pkg py_node --ros-args -r__node:=temperature_sensor1
+```
