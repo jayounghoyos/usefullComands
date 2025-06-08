@@ -235,3 +235,8 @@ int main(int argc, char **argv)
 ```bash
 ros2 run my_py_pkg py_node --ros-args -r__node:=temperature_sensor1
 ```
+
+*Rename nodes and topics in runtime
+```bash
+ros2 run my_py_pkg robot_news_station --ros-args --remap __node:=my_station -r Robot_news:=abc
+```
