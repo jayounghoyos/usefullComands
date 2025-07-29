@@ -240,3 +240,19 @@ ros2 run my_py_pkg py_node --ros-args -r__node:=temperature_sensor1
 ```bash
 ros2 run my_py_pkg robot_news_station --ros-args --remap __node:=my_station -r Robot_news:=abc
 ```
+
+*ROS2 Starter*
+```bash
+cd
+mkdir ros2_ws
+cd ros2_ws/
+mkdir src
+sudo apt install ros-dev-tools
+colcon build
+build  install  log  src
+source install/setup.bash
+gedit ~/.bashrc
+source ~/ros2_ws/install/setup.bash (this one in .bashrc)
+ros2 pkg create my_robot_description
+```
+
